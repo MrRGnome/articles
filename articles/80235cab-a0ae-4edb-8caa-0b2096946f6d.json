@@ -1,0 +1,21 @@
+{
+  "id": "80235cab-a0ae-4edb-8caa-0b2096946f6d",
+  "title": "Why BTCMaxis.com is anti-BIP110",
+  "content": "Recently some changes have occurred at btcmaxis.com. Knots no longer holds its favoured position on top of our node recommendations list. \n\nInstead, Knots has been given its own section on this website: Dangerous Forking Software. This is an accurate description of code that regardless of support and in a very short timeframe intends to lead users into a forked chain, but in this instance it's especially necessary we as educators engage in risk mitigation by calling Knots and BIP110 rhetoric what it is - dangerous.\n\nIt's dangerous for many reasons but I'll outline the highlights:\n\n- The best case scenario is a 55% MASF activation. The Bitcoin difficulty and miner participation regularly swings by that much in a given difficulty adjustment period. This is an insanely low activation threshold inviting reorgs.- The likely and worst case scenario is a lack of miner support and a UASF activation, which by fact of having failed the 55% MASF threshold will be near necessarily a minority hashpower and very likely extreme minority node and economic power network. It simply won't be secure from attack and its participants will be very vulnerable to attack.\n- UASF's have no signaling mechanism and are trivial to sybil support for, so to be safe they take a long time to organize. 9 Months total and a couple fo weeks behind a failed MASF activation is not nearly an appropriate amount of time to safely organize a UASF.\n- We don't steal peoples coins, period. Not even a whiff of it. Making taptrees more than 7 deep unspendable, making op_if scripts unspendable, would violate Bitcoins most sacred properties. Even if for only a year.\n- We WANT people abusing bitcoin to do it in OP_RETURN where they pay what they owe and don't bloat the UTXO set. A BIP limiting OP_RETURN use is nonsense and makes spam WORSE!\n- In fact nothing in BIP110 will in any way deter spam, which we can prove. It won't even stop or disincentivize contiguous data. You can verify that fact yourself at https://knotslies.com\n\nSo in sum, BIP110 is a nuisance fork from a petulant man child who is keen to use the emotional threats of spam, CSAM, and legal consequence in an effort to achieve the over throwing of Core at any cost at best, and driving business to his mining company at worst (which has more than doubled since he started beating this drum). Promoting BIP110 relies on technical ignorance and fear of legal threat to manipulate peoples consensus decisions, and we as educators have a responsibility to explain why it's harmful - not blindly and ignorantly cheer the way so many tech illiterate influencers have thus far.\n\nDon't trust. Verify. https://knotslies.com\n\nSincerely, a former knots supporter and donator\n-MrRGnome",
+  "article_time": "2026-03-10T23:22:26.478Z",
+  "published": false,
+  "authors": [
+    {
+      "username": "mrrgnome (MrRGnome)",
+      "image": "https://cdn.discordapp.com/avatars/281970998784557057/a02a43c7597cebe3397c44db612fb97c.webp"
+    }
+  ],
+  "source_message_id": "1481069754750861464",
+  "source_channel_id": "788190517720383508",
+  "source_guild_id": "782749290219962370",
+  "linked_message_ids": [
+    "1480974131561365640",
+    "1480974276722168000",
+    "1480974528656969798"
+  ]
+}
