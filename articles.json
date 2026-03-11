@@ -1,4 +1,20 @@
 {
-  "articles": {},
-  "updated_at": "2026-03-11T22:06:06.017Z"
+  "articles": {
+    "7068209d-febf-4d28-8941-83567f542d57": {
+      "filename": "articles/7068209d-febf-4d28-8941-83567f542d57.json",
+      "timestamp": "2026-03-11T22:06:51.343Z",
+      "title": "Why BTCMaxis.com is anti-BIP110",
+      "author": "mrrgnome (MrRGnome)",
+      "line1": "Recently some changes have occurred at btcmaxis.com.",
+      "line2": "Knots no longer holds its favoured position on top of our node recommendations list.",
+      "forum_post_url": "https://discord.com/channels/782749290219962370/1481413130754981909/1481413130754981909",
+      "tags": [
+        "Why BTCMaxis.com is anti-BIP110",
+        "7068209d-febf-4d28-8941-83567f542d57",
+        "mrrgnome (MrRGnome)",
+        "symphonicc (Symfaye [The Core Faye-llacy™])"
+      ]
+    }
+  },
+  "updated_at": "2026-03-11T22:08:04.174Z"
 }
