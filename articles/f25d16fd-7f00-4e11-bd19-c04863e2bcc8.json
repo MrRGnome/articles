@@ -1,0 +1,29 @@
+{
+  "id": "f25d16fd-7f00-4e11-bd19-c04863e2bcc8",
+  "title": "SATOSHI",
+  "content": "Follow the community as they investigate links and discussions about Satoshi!\n\nI'm gonna use this thread as a repository for interesting things I find about SATOSHI for the SATOSHI.movie project\n\nfirst example https://x.com/adam3us/status/1855547821539152328\n\nsome fun things im noticing. half Finney may have been the first one to coin the term blockchain as block chain. he also brings up source forge as a hosting option for bitcoin's code since bitgold was hosted there too, which satoshi eventually used. the byzantine generals problem doesn't appear until james donald brings it up as a concept for satoshi to address. satoshi also confirms he had a bitcoin testnet of sorts in nov 2008.",
+  "article_time": "2026-03-11T23:52:15.132Z",
+  "published": false,
+  "authors": [
+    {
+      "username": "fiach_dubh (FEEeACH🐦🐦🐦I'll Never DM You)",
+      "image": "https://cdn.discordapp.com/avatars/779022047153225739/bf49286f3359b05f12d696cd5560a8ff.webp"
+    }
+  ],
+  "contributors": [],
+  "line1": "Follow the community as they investigate links and discussions about Satoshi!",
+  "line2": "I'm gonna use this thread as a repository for interesting things I find about SATOSHI for the SATOSHI.movie project first example some fun things im noticing.",
+  "tags": [
+    "SATOSHI",
+    "f25d16fd-7f00-4e11-bd19-c04863e2bcc8",
+    "fiach_dubh (FEEeACH🐦🐦🐦I'll Never DM You)"
+  ],
+  "forum_post_url": "",
+  "source_message_id": "1481439644775088234",
+  "source_channel_id": "1019736722583588985",
+  "source_guild_id": "782749290219962370",
+  "linked_message_ids": [
+    "1305166062907686984",
+    "1305341724205256766"
+  ]
+}
