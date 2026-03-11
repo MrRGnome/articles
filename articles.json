@@ -1,13 +1,5 @@
 {
   "articles": {
-    "75da0fd4-d6d5-458c-ad4b-0396603f37dc": {
-      "filename": "articles/75da0fd4-d6d5-458c-ad4b-0396603f37dc.json",
-      "timestamp": "2026-03-11T02:40:55.064Z",
-      "source_message_id": "1481119702980886528",
-      "source_channel_id": "788190517720383508",
-      "source_guild_id": "782749290219962370",
-      "title": "Why BTCMaxis.com is anti-BIP110"
-    },
     "4f82214f-a6de-4147-afd3-bd2618a4cd41": {
       "filename": "articles/4f82214f-a6de-4147-afd3-bd2618a4cd41.json",
       "timestamp": "2026-03-11T02:53:06.681Z",
@@ -17,5 +9,5 @@
       "title": "He Never Lies"
     }
   },
-  "updated_at": "2026-03-11T03:20:38.280Z"
+  "updated_at": "2026-03-11T06:00:08.739Z"
 }
