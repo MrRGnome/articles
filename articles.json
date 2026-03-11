@@ -1,11 +1,4 @@
 {
-  "articles": {
-    "1569d192-a2d6-45b3-bc84-a9ff4363b4e5": {
-      "filename": "articles/1569d192-a2d6-45b3-bc84-a9ff4363b4e5.json",
-      "timestamp": "2026-03-11T15:17:15.065Z",
-      "published": true,
-      "title": "Why BTCMaxis.com is anti-BIP110"
-    }
-  },
-  "updated_at": "2026-03-11T16:48:49.217Z"
+  "articles": {},
+  "updated_at": "2026-03-11T19:03:00.380Z"
 }
