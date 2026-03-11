@@ -1,4 +1,19 @@
 {
-  "articles": {},
-  "updated_at": "2026-03-11T19:20:26.707Z"
+  "articles": {
+    "873c3793-1347-4035-9974-b0377873475e": {
+      "filename": "articles/873c3793-1347-4035-9974-b0377873475e.json",
+      "timestamp": "2026-03-11T19:30:24.683Z",
+      "title": "Why BTCMaxis.com is anti-BIP110",
+      "author": "mrrgnome (MrRGnome)",
+      "tags": [
+        "Why BTCMaxis.com is anti-BIP110",
+        "https://cdn.",
+        "discordapp.",
+        "873c3793-1347-4035-9974-b0377873475e",
+        "mrrgnome (MrRGnome)",
+        "symphonicc (Symfaye [The Core Faye-llacy™])"
+      ]
+    }
+  },
+  "updated_at": "2026-03-11T19:30:38.703Z"
 }
