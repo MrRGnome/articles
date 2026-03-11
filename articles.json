@@ -1,4 +1,13 @@
 {
-  "articles": {},
-  "updated_at": "2026-03-11T14:47:36.783Z"
+  "articles": {
+    "7c061900-2db4-40c5-bbbf-bb05db05d5a2": {
+      "filename": "articles/7c061900-2db4-40c5-bbbf-bb05db05d5a2.json",
+      "timestamp": "2026-03-11T14:48:07.451Z",
+      "source_message_id": "1481302710476214304",
+      "source_channel_id": "788190517720383508",
+      "source_guild_id": "782749290219962370",
+      "title": "Why BTCMaxis.com is anti-BIP110"
+    }
+  },
+  "updated_at": "2026-03-11T14:59:59.017Z"
 }
