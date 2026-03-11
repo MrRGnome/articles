@@ -1,13 +1,4 @@
 {
-  "articles": {
-    "4f82214f-a6de-4147-afd3-bd2618a4cd41": {
-      "filename": "articles/4f82214f-a6de-4147-afd3-bd2618a4cd41.json",
-      "timestamp": "2026-03-11T02:53:06.681Z",
-      "source_message_id": "1481122771605000313",
-      "source_channel_id": "788190517720383508",
-      "source_guild_id": "782749290219962370",
-      "title": "He Never Lies"
-    }
-  },
-  "updated_at": "2026-03-11T06:00:08.739Z"
+  "articles": {},
+  "updated_at": "2026-03-11T06:00:39.702Z"
 }
