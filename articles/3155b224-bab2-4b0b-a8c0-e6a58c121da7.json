@@ -1,0 +1,53 @@
+{
+  "id": "3155b224-bab2-4b0b-a8c0-e6a58c121da7",
+  "title": "SATOSHI Part 1",
+  "content": "I'm gonna use this thread as a repository for interesting things I find about SATOSHI for the SATOSHI.movie project\n\nfirst example https://x.com/adam3us/status/1855547821539152328\nsome fun things im noticing. half Finney may have been the first one to coin the term blockchain as block chain. he also brings up source forge as a hosting option for bitcoin's code since bitgold was hosted there too, which satoshi eventually used. the byzantine generals problem doesn't appear until james donald brings it up as a concept for satoshi to address. satoshi also confirms he had a bitcoin testnet of sorts in nov 2008.\nhttps://image.nostr.build/1faff80975e9df2d82a9e0ae8531c6410c0729262a62fe2e59eecf157e12c823.jpg\nmaybe the only time satoshi went ALL CAPS\n```  //// debug\n            // Genesis Block:\n            // GetHash()      = 0x000006b15d1327d67e971d1de9116bd60a3a01556c91b6ebaa416ebc0cfaa646\n            // hashPrevBlock  = 0x0000000000000000000000000000000000000000000000000000000000000000\n            // hashMerkleRoot = 0x769a5e93fac273fd825da42d39ead975b5d712b2d50953f35a4fdebdec8083e3\n            // txNew.vin[0].scriptSig      = 247422313\n            // txNew.vout[0].nValue        = 10000\n            // txNew.vout[0].scriptPubKey  = OP_CODESEPARATOR 0x31D18A083F381B4BDE37B649AACF8CD0AFD88C53A3587ECDB7FAF23D449C800AF1CE516199390BFE42991F10E7F5340F2A63449F0B639A7115C667E5D7B051D404 OP_CHECKSIG\n            // nTime          = 1221069728\n            // nBits          = 20\n            // nNonce         = 141755\n            // CBlock(hashPrevBlock=000000, hashMerkleRoot=769a5e, nTime=1221069728, nBits=20, nNonce=141755, vtx=1)\n            //   CTransaction(vin.size=1, vout.size=1, nLockTime=0)\n            //     CTxIn(COutPoint(000000, -1), coinbase 04695dbf0e)\n            //     CTxOut(nValue=10000, nSequence=4294967295, scriptPubKey=51b0, posNext=null)\n            //   vMerkleTree: 769a5e\n\n            // Genesis block\n            CTransaction txNew;\n            txNew.vin.resize(1);\n            txNew.vout.resize(1);\n            txNew.vin[0].scriptSig     = CScript() << 247422313;\n            txNew.vout[0].nValue       = 10000;\n            txNew.vout[0].scriptPubKey = CScript() << OP_CODESEPARATOR << CBigNum(\"0x31D18A083F381B4BDE37B649AACF8CD0AFD88C53A3587ECDB7FAF23D449C800AF1CE516199390BFE42991F10E7F5340F2A63449F0B639A7115C667E5D7B051D404\") << OP_CHECKSIG;\n         ```\nso this is the genesis block hash of the nov 2008 v0.0 draft bitcoin source code. can anyone tell me what the timestamp for this would be (one article says its September 10th 2008, but i want to verify) showing how you got this answer would also be greatly appreciated.\nchatgpt gave me this answer \"The timestamp of the genesis block is given as nTime = 1221069728. This value represents the number of seconds since the Unix epoch (January 1, 1970, 00:00:00 UTC). To convert this to a human-readable date:\n\n1221069728 seconds from the epoch corresponds to Monday, September 8, 2008, 18:02:08 UTC.\nThus, the date of the genesis block described in the data is September 8, 2008.\"  can anoyone else verify that it's sept 8th or 10th ?\nthat could be 9/11 in certain time zones. Halloween Whitepaper... probably tried for new year's launch... wut u doin satoshi\nya i checked, its only 9/11 in eastern timezones very early in the morning\nwhich IDE / compiler(s) do we think Satoshi used for his first implementation(s) ? For latter ones ? Visual Studio ?\nso this is related to my SATOSHI https://discord.com/channels/782749290219962370/1305166062907686984 journey, but deserves its own thread\nsource of debug.log file https://web.archive.org/web/20130401140926/http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list&max_rows=25&style=nested&viewmonth=200901&viewday=10\nturns out you were right \"I hate to blame the compiler, and I've never had a GCC\ncompiler bug before, but this feels like one\" Satoshi used a linux distro compiler to build Bitcoin?\nsource https://www.wsj.com/public/resources/documents/finneynakamotoemails.pdf\noh nvm, he may have been using both! \"It was absolutely the last piece of code to go in and mainly only got tested with the\nMSVC build.\"\nMSCV = visual studio\ncuriosity. there's a claim that satoshi was a weird windows nerd\nand that may be the case given that GCC and MSCV were both being used by him\n\"Satoshi owning a million bitcoin is just a widely spread myth. Someone named Sergio started that myth years ago and people just keep ignorantly repeating it as a fact. Nobody really knows how much bitcoin Satoshi actually owns. All we know for a fact is that Satoshi mined the genesis block (which can't be spent) and block 9. Other than that, all we can do is speculate.\n\nThere were 6 days between the genesis block being mined on January 3 and block 1 being mined on January 9 (while the difficulty was 1), so we know that Satoshi waited for other people to start mining before joining in himself.\n\nBelow are two examples of early bitcoin miners that were mining alongside Satoshi from the very beginning.\nhttps://twitter.com/halfin/status/1110302988\nhttps://twitter.com/druidian/status/1447833108355731462\nhttps://stephanlivera.com/episode/314/\n\nThere is also a user on the bitcointalk forum that signed a message using the private key from a bitcoin address that was used to receive a 50 BTC coinbase transaction block reward in 2009.\"\njust to add some info i never see people mention: bitcoin requires at least 2 nodes to be online and connected in order for mining to take place",
+  "article_time": "2026-03-12T01:00:05.104Z",
+  "published": false,
+  "authors": [
+    {
+      "username": "fiach_dubh (FEEeACH🐦🐦🐦I'll Never DM You)",
+      "image": "https://cdn.discordapp.com/avatars/779022047153225739/bf49286f3359b05f12d696cd5560a8ff.webp"
+    }
+  ],
+  "contributors": [
+    {
+      "username": "Anonymous",
+      "image": ""
+    }
+  ],
+  "line1": "I'm gonna use this thread as a repository for interesting things I find about SATOSHI for the SATOSHI.movie project first example some fun things im noticing.",
+  "line2": "half Finney may have been the first one to coin the term blockchain as block chain.",
+  "tags": [
+    "SATOSHI Part 1",
+    "3155b224-bab2-4b0b-a8c0-e6a58c121da7",
+    "fiach_dubh (FEEeACH🐦🐦🐦I'll Never DM You)",
+    "Anonymous"
+  ],
+  "forum_post_url": "",
+  "source_message_id": "1481456715475189761",
+  "source_channel_id": "1019736722583588985",
+  "source_guild_id": "782749290219962370",
+  "linked_message_ids": [
+    "1305166062907686984",
+    "1305341724205256766",
+    "1307157486146555935",
+    "1307157549270696027",
+    "1308190912639139871",
+    "1308191179040493719",
+    "1308191827484217356",
+    "1308656893417230356",
+    "1308800640121831424",
+    "1310644977319022664",
+    "1311020055043117186",
+    "1311020163939831959",
+    "1311035340848496771",
+    "1311035440152838305",
+    "1311036501014085765",
+    "1311036547407020045",
+    "1311041265072209931",
+    "1311041394193862718",
+    "1312091584850038867",
+    "1313061417624010805"
+  ]
+}
