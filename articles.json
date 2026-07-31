@@ -1,36 +1,20 @@
-{
-  "articles": {
-    "b0cfa4d4-e63a-4630-9ac5-b927923251f5": {
-      "filename": "articles/b0cfa4d4-e63a-4630-9ac5-b927923251f5.json",
-      "timestamp": "2026-03-12T00:52:37.639Z",
-      "title": "Why BTCMaxis.com is anti-BIP110",
-      "author": "mrrgnome (MrRGnome)",
-      "line1": "Recently some changes have occurred at btcmaxis.com.",
-      "line2": "Knots no longer holds its favoured position on top of our node recommendations list.",
-      "forum_post_url": "https://discord.com/channels/782749290219962370/1481454846887461006/1481454846887461006",
-      "tags": [
-        "Why BTCMaxis.com is anti-BIP110",
-        "b0cfa4d4-e63a-4630-9ac5-b927923251f5",
-        "mrrgnome (MrRGnome)",
-        "symphonicc (Symfaye [The Core Faye-llacy™])"
-      ]
-    },
-    "7554e7cb-d8aa-45d5-95c8-adea8d87ea23": {
-      "filename": "articles/7554e7cb-d8aa-45d5-95c8-adea8d87ea23.json",
-      "timestamp": "2026-07-31T21:51:24.155Z",
-      "title": "Coldcard Vulnerability and Wallet Entropy Best Practices",
-      "author": "mrrgnome (MrRGnome)",
-      "line1": "There is a severe vulnerability you may presume is **affecting all coldcards initialized after 2020** regardless of model.",
-      "line2": "Some models have more severe problems than others (mk3) but even newer models have effectively 72 bits of entropy instead of the desired 256.",
-      "forum_post_url": "https://discord.com/channels/782749290219962370/1532868315742081215/1532868315742081215",
-      "tags": [
-        "Coldcard Vulnerability and Wallet Entropy Best Practices",
-        "7554e7cb-d8aa-45d5-95c8-adea8d87ea23",
-        "mrrgnome (MrRGnome)",
-        "BitcoinChat (BitcoinChat)",
-        "oibiud100021 (Faye O'Connor)"
-      ]
-    }
-  },
-  "updated_at": "2026-07-31T21:52:21.804Z"
+﻿{
+    "articles":  {
+                     "b0cfa4d4-e63a-4630-9ac5-b927923251f5":  {
+                                                                  "filename":  "articles/b0cfa4d4-e63a-4630-9ac5-b927923251f5.json",
+                                                                  "timestamp":  "2026-03-12T00:52:37.639Z",
+                                                                  "title":  "Why BTCMaxis.com is anti-BIP110",
+                                                                  "author":  "mrrgnome (MrRGnome)",
+                                                                  "line1":  "Recently some changes have occurred at btcmaxis.com.",
+                                                                  "line2":  "Knots no longer holds its favoured position on top of our node recommendations list.",
+                                                                  "forum_post_url":  "https://discord.com/channels/782749290219962370/1481454846887461006/1481454846887461006",
+                                                                  "tags":  [
+                                                                               "Why BTCMaxis.com is anti-BIP110",
+                                                                               "b0cfa4d4-e63a-4630-9ac5-b927923251f5",
+                                                                               "mrrgnome (MrRGnome)",
+                                                                               "symphonicc (Symfaye [The Core Faye-llacyâ„¢])"
+                                                                           ]
+                                                              }
+                 },
+    "updated_at":  "2026-07-31T21:52:21.804Z"
 }
