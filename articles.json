@@ -12,9 +12,24 @@
         "Why BTCMaxis.com is anti-BIP110",
         "b0cfa4d4-e63a-4630-9ac5-b927923251f5",
         "mrrgnome (MrRGnome)",
-        "symphonicc (Symfaye [The Core Faye-llacy\u2122])"
+        "symphonicc (Symfaye [The Core Faye-llacy™])"
+      ]
+    },
+    "1ac44811-8c9d-43a6-979f-d1aeb1211a41": {
+      "filename": "articles/1ac44811-8c9d-43a6-979f-d1aeb1211a41.json",
+      "timestamp": "2026-07-31T22:21:40.674Z",
+      "title": "Coldcard Vulnerability and Wallet Entropy Best Practices",
+      "author": "mrrgnome (MrRGnome)",
+      "line1": "There is a severe vulnerability you may presume is **affecting all coldcards initialized after 2020** regardless of model.",
+      "line2": "Some models have more severe problems than others (mk3) but even newer models have effectively 72 bits of entropy instead of the desired 256.",
+      "forum_post_url": "https://discord.com/channels/782749290219962370/1532875936108642315/1532875936108642315",
+      "tags": [
+        "Coldcard Vulnerability and Wallet Entropy Best Practices",
+        "1ac44811-8c9d-43a6-979f-d1aeb1211a41",
+        "mrrgnome (MrRGnome)",
+        "BitcoinChat (BitcoinChat)"
       ]
     }
   },
-  "updated_at": "2026-07-31T21:52:21.804Z"
+  "updated_at": "2026-07-31T22:53:02.325Z"
 }
