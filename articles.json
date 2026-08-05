@@ -29,7 +29,21 @@
         "mrrgnome (MrRGnome)",
         "BitcoinChat (BitcoinChat)"
       ]
+    },
+    "ca2d1009-d3be-49b2-9879-8aa69f8fde77": {
+      "filename": "articles/ca2d1009-d3be-49b2-9879-8aa69f8fde77.json",
+      "timestamp": "2026-08-05T19:25:31.413Z",
+      "title": "BIP39 Walkthrough Example",
+      "author": "mrrgnome (MrRGnome)",
+      "line1": "Lets say you have successfully created unbiased entropy using out coin flip or dice roll methods and von neumann skew correction (as outlined in our coldcard exploit article).",
+      "line2": "Here is a step by step walk through of how to process that entropy into a BIP39 seed.",
+      "forum_post_url": "https://discord.com/channels/782749290219962370/1534643544105685202/1534643544105685202",
+      "tags": [
+        "BIP39 Walkthrough Example",
+        "ca2d1009-d3be-49b2-9879-8aa69f8fde77",
+        "mrrgnome (MrRGnome)"
+      ]
     }
   },
-  "updated_at": "2026-08-05T19:25:19.345Z"
+  "updated_at": "2026-08-05T19:25:53.744Z"
 }
