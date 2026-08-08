@@ -1,28 +1,30 @@
 {
-  "id": "ca2d1009-d3be-49b2-9879-8aa69f8fde77",
-  "title": "BIP39 Walkthrough Example",
-  "content": "Lets say you have successfully created unbiased entropy using out coin flip or dice roll methods and von neumann skew correction (as outlined in our [coldcard exploit article](https://btcmaxis.com/article.html?id=7554e7cb-d8aa-45d5-95c8-adea8d87ea23)). Here is a step by step walk through of how to process that entropy into a BIP39 seed.\n\n**Remember you need to hash the raw bytes of your entropy, not the ASCII, and remember that you need to add 1 to the resulting integers to match the line numbers in the bip39 wordlist.**\n\nLets say my entropy is\n> 11010000100010001110100100010110011100100101111101010110110111101001010001010110011010110110101101110010101000000100011111111100\n\nI start by converting that to raw bytes which is:\n> d0 88 e9 16 72 5f 56 de 94 56 6b 6b 72 a0 47 fc\n\nI want to get my SHA256 hash of those bytes, which is:\n> 83a2d18bc8f5f3016d0e436d673488f64fe988993fa0df2d7a528c08563950aa\n\nYou can accomplish these first three steps on an air gapped linux laptop with the command:\n> printf '%s' '11010000100010001110100100010110011100100101111101010110110111101001010001010110011010110110101101110010101000000100011111111100' \\\n>   | basenc --base2msbf --decode \\\n>   | sha256sum\n\nI take the first 4 bits of that (because 128 bit entropy, 8 bits for 256) and thats \"8\" or \"1000\". I add that to the end of the original entropy. I now have:\n>  110100001000100011101001000101100111001001011111010101101101111010010100010101100110101101101011011100101010000001000111111111001000\n\nI split it into groups of 11:\n> 11010000100\n> \n> 01000111010\n> \n> 01000101100\n> \n> 11100100101\n> \n> 11110101011\n> \n> 01101111010\n> \n> 01010001010\n> \n> 11001101011\n> \n> 01101011011\n> \n> 10010101000\n> \n> 00010001111\n> \n> 11111001000\n\nTurned into integers I get:\n> 1668\n> 570\n> 556\n> 1829\n> 1963\n> 890\n> 650\n> 1643\n> 859\n> 1192\n> 143\n> 1992\n\nThen I add one to each number, and find its line number in https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt I get\n> line 1669 = spatial\n> \n> line 571 = elder\n> \n> line 557 = easily\n> \n> line 1830 = tool\n> \n> line 1964 = voice\n> \n> line 891 = hungry\n> \n> line 651 = eyebrow\n> \n> line 1644 = sniff\n> \n> line 860 = hidden\n> \n> line 1193 = never\n> \n> line 144 = ball\n> \n> line 1993 = weekend\n\nCongratulations, you just rolled your own seed. Obviously - **do not ever use this example seed or entropy in real life**\n\nIf you need assistance, we're happy to help in our discord at https://btcmaxis.com/discord",
-  "article_time": "2026-08-05T19:25:31.413Z",
-  "published": true,
-  "authors": [
-    {
-      "username": "mrrgnome (MrRGnome)",
-      "image": "https://cdn.discordapp.com/avatars/281970998784557057/a02a43c7597cebe3397c44db612fb97c.webp"
-    }
-  ],
-  "contributors": [],
-  "line1": "Lets say you have successfully created unbiased entropy using out coin flip or dice roll methods and von neumann skew correction (as outlined in our coldcard exploit article).",
-  "line2": "Here is a step by step walk through of how to process that entropy into a BIP39 seed.",
-  "tags": [
-    "BIP39 Walkthrough Example",
-    "ca2d1009-d3be-49b2-9879-8aa69f8fde77",
-    "mrrgnome (MrRGnome)"
-  ],
-  "forum_post_url": "https://discord.com/channels/782749290219962370/1534643544105685202/1534643544105685202",
-  "source_message_id": "1534643536555802715",
-  "source_channel_id": "1289839589531582464",
-  "source_guild_id": "782749290219962370",
-  "linked_message_ids": [
-    "1534638013672329257"
-  ]
+    "id":  "ca2d1009-d3be-49b2-9879-8aa69f8fde77",
+    "title":  "BIP39 Walkthrough Example",
+    "content":  "Lets say you have successfully created unbiased entropy using out coin flip or dice roll methods and von neumann skew correction (as outlined in our [coldcard exploit article](https://btcmaxis.com/article.html?id=7554e7cb-d8aa-45d5-95c8-adea8d87ea23)). Here is a step by step walk through of how to process that entropy into a BIP39 seed.\n\n**Remember you need to hash the raw bytes of your entropy, not the ASCII, and remember that you need to add 1 to the resulting integers to match the line numbers in the bip39 wordlist.**\n\nLets say my entropy is\n\u003e 11010000100010001110100100010110011100100101111101010110110111101001010001010110011010110110101101110010101000000100011111111100\n\nI start by converting that to raw bytes which is:\n\u003e d0 88 e9 16 72 5f 56 de 94 56 6b 6b 72 a0 47 fc\n\nI want to get my SHA256 hash of those bytes, which is:\n\u003e 83a2d18bc8f5f3016d0e436d673488f64fe988993fa0df2d7a528c08563950aa\n\nYou can accomplish these first three steps on an air gapped linux laptop with the command:\n\u003e printf \u0027%s\u0027 \u002711010000100010001110100100010110011100100101111101010110110111101001010001010110011010110110101101110010101000000100011111111100\u0027 | basenc --base2msbf --decode | sha256sum\n\nI take the first 4 bits of that (because 128 bit entropy, 8 bits for 256) and thats \"8\" or \"1000\". I add that to the end of the original entropy. I now have:\n\u003e  110100001000100011101001000101100111001001011111010101101101111010010100010101100110101101101011011100101010000001000111111111001000\n\nI split it into groups of 11:\n\u003e 11010000100\n\u003e \n\u003e 01000111010\n\u003e \n\u003e 01000101100\n\u003e \n\u003e 11100100101\n\u003e \n\u003e 11110101011\n\u003e \n\u003e 01101111010\n\u003e \n\u003e 01010001010\n\u003e \n\u003e 11001101011\n\u003e \n\u003e 01101011011\n\u003e \n\u003e 10010101000\n\u003e \n\u003e 00010001111\n\u003e \n\u003e 11111001000\n\nTurned into integers I get:\n\u003e 1668\n\u003e 570\n\u003e 556\n\u003e 1829\n\u003e 1963\n\u003e 890\n\u003e 650\n\u003e 1643\n\u003e 859\n\u003e 1192\n\u003e 143\n\u003e 1992\n\nThen I add one to each number, and find its line number in https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt I get\n\u003e line 1669 = spatial\n\u003e \n\u003e line 571 = elder\n\u003e \n\u003e line 557 = easily\n\u003e \n\u003e line 1830 = tool\n\u003e \n\u003e line 1964 = voice\n\u003e \n\u003e line 891 = hungry\n\u003e \n\u003e line 651 = eyebrow\n\u003e \n\u003e line 1644 = sniff\n\u003e \n\u003e line 860 = hidden\n\u003e \n\u003e line 1193 = never\n\u003e \n\u003e line 144 = ball\n\u003e \n\u003e line 1993 = weekend\n\nCongratulations, you just rolled your own seed. Obviously - **do not ever use this example seed or entropy in real life**\n\nIf you need assistance, we\u0027re happy to help in our discord at https://btcmaxis.com/discord",
+    "article_time":  "2026-08-05T19:25:31.413Z",
+    "published":  true,
+    "authors":  [
+                    {
+                        "username":  "mrrgnome (MrRGnome)",
+                        "image":  "https://cdn.discordapp.com/avatars/281970998784557057/a02a43c7597cebe3397c44db612fb97c.webp"
+                    }
+                ],
+    "contributors":  [
+
+                     ],
+    "line1":  "Lets say you have successfully created unbiased entropy using out coin flip or dice roll methods and von neumann skew correction (as outlined in our coldcard exploit article).",
+    "line2":  "Here is a step by step walk through of how to process that entropy into a BIP39 seed.",
+    "tags":  [
+                 "BIP39 Walkthrough Example",
+                 "ca2d1009-d3be-49b2-9879-8aa69f8fde77",
+                 "mrrgnome (MrRGnome)"
+             ],
+    "forum_post_url":  "https://discord.com/channels/782749290219962370/1534643544105685202/1534643544105685202",
+    "source_message_id":  "1534643536555802715",
+    "source_channel_id":  "1289839589531582464",
+    "source_guild_id":  "782749290219962370",
+    "linked_message_ids":  [
+                               "1534638013672329257"
+                           ]
 }
