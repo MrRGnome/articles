@@ -1,0 +1,28 @@
+{
+  "id": "52b6ebb4-21a9-4e76-802e-565c1a091ccc",
+  "title": "Skew Correct d6",
+  "content": "## Introduction\nA method for skew-correcting a six-sided die can be found in the \"A generalization to loaded dice\" section within the article located at https://pit-claudel.fr/clement/blog/generating-uniformly-random-data-from-skewed-input-biased-coins-loaded-dice-skew-correction-and-the-von-neumann-extractor/\n\n\n\n**This** particular article will use a worked example to *mathematically guarantee* 128 bits (for a 12 word seed phrease) or 256 bits (for a 24 word seed phrase) of entropy using a 6-sided die (d6).\n\nIn this article we will create a **12 word seed phrase**. Therefore we will need a total of **50** d6 values. These values are obtained by mapping sequences of triplet rolls according to their *order*: ```LMH=1, LHM=2, MHL=3, MLH=6, HLM=5, HML=4```\n\nwhere L=Low, M=Middle, H=High. For example, the sequence 123 is in the order LMH. But so are all these other triplets: ```123, 124, 125, 126, 234, 235, 236, 345, 346, 456```\n\nThe premise behind this is that there are 3!=6 different ways to arrange the letters \"L, M, H\" and therefore can map all sequences to the numbers on a six-sided die.\n\nThe process is summarized below:\n\n1) Roll a single six-sided die (d6) three times and record its values\n2) Any triplet with distinct values is kept and mapped to the orderings described above (LMH, LHM, ...); any triplet with at least two of the same values is discarded\n3) Repeat until we obtain 50 d6 values",
+  "article_time": "2026-08-25T18:49:21.215Z",
+  "published": false,
+  "authors": [
+    {
+      "username": "astaroth678 (Astaroth)",
+      "image": "https://cdn.discordapp.com/avatars/768231996203335692/4682ec02addf0ebb5310124179c02448.webp"
+    }
+  ],
+  "contributors": [],
+  "line1": "## Introduction A method for skew-correcting a six-sided die can be found in the \"A generalization to loaded dice\" section within the article located at **This** particular article will use a worked example to *mathematically guarantee* 128 bits (for a 12 word seed phrease) or 256 bits (for a 24 word seed phrase) of entropy using a 6-sided die (d6).",
+  "line2": "In this article we will create a **12 word seed phrase**.",
+  "tags": [
+    "Skew Correct d6",
+    "52b6ebb4-21a9-4e76-802e-565c1a091ccc",
+    "astaroth678 (Astaroth)"
+  ],
+  "forum_post_url": "",
+  "source_message_id": "1541882191397519360",
+  "source_channel_id": "1289839589531582464",
+  "source_guild_id": "782749290219962370",
+  "linked_message_ids": [
+    "1541882118932660367"
+  ]
+}
